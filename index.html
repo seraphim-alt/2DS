@@ -1,0 +1,31 @@
+<DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF=8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> wi-fi login </title>
+    link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="login-box">
+    <img src="logo.png" class="logo" alt="logo">
+    <h2> Acesso a Internet </h2>
+    <form name="login" action="$(link-login-only_)method="post">
+    <input type="hidden" name="dst" value="$(link-oring)">
+    <input type="hidden" name="popup" value="true">
+    
+    
+    <input type="text" name="Username" placeholder="Usuario" required>
+    <input type="password" name="password" placeholder="Senha" required>
+    
+    <button type="submit">Conectar</button>
+</form>
+
+    <div class="error">$(error)</div>
+    <p class="footer" Wi-Fi Seguro * Mikrotik>  </p>
+  </div>
+ </div>
+</body>
+</html>
